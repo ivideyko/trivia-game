@@ -43,9 +43,10 @@ $(document).ready(function() {
     // Clear game timer - BANDAID
     clearInterval(gameTimer);
 
+    $("html").fadeIn("slow");
+
     // Display appropriate background image
     $("html").css("background-image", "url('" + triviaQuestions[currentQuestion].image + "')");
-    // $("#timer").css("color", "white");
 
     // Clear possible answers to make room for the correct answer
     $("#answers").empty();

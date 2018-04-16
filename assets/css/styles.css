@@ -13,24 +13,26 @@ body {
   background-color: transparent;
 }
 
-.jumbotron {
+.container .jumbotron {
   color: white;
   background: black;
   padding-top: 20px;
   padding-bottom: 50px;
   margin-top: 60px;
   opacity: 0.8;
+  border-radius: 40px;
 }
 
 #comment {
-  color: white;
-  font-size: 30px;
+  color: lightgreen;
+  font-size: 42px;
   padding-bottom: 15px;
 }
 
-hr {
+.container .jumbotron  hr {
   padding: 0px;
   margin: 0px;
+  color: gray;
 }
 
 #timer {
@@ -45,8 +47,8 @@ hr {
   padding-top: 20px;
   padding-bottom: 15px;
   font-size: 42px;
+  color: white;
 }
-
 #correctAnswer {
   color: yellow;
   font-size: 60px;
@@ -54,7 +56,7 @@ hr {
 }
 
 a.answer {
-  color: yellow;
+  color: green;
   display: inline;
   font-size: 30px;
   line-height: 1.7;
@@ -62,7 +64,7 @@ a.answer {
 
 .answer:hover {
   text-decoration: none;
-  color: green;
+  color: yellow;
 }
 
 #results {
