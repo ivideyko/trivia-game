@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>1920's Trivia Game</title>
+  <title>Automotive Trivia Game</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -12,48 +12,27 @@
 
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="jumbotron text-center">
+          <div>
+            <h1 id="comment">Automotive Trivia Game</h1>
+          </div>
+          <hr>
+          <div id="timer">20</div>
+          <hr>
+          <div id="question"></div>
+          <div id="answers"></div>
+          <div id="correctAnswer"></div>
+          <div id="results"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <script>
-    // "I've got something in my front pocket for you..."
+  <script type="text/javascript" src="assets/js/data.js"></script>
+  <script type="text/javascript" src="assets/js/logic.js"></script>
 
-    // Set some globals
-
-    // Trivia Object
-    //    title 
-    //    question 
-    //    correct answer
-    //    ?unique image?
-    
-
-    // Current Question 0
-    // Wins 0
-    // Losses 0
-    // GameWon false
-
-    // Initialize UI
-
-    // Start game
-    //    Update UI
-    //    Display current question
-    //    Start timer
-    //      When it times out call Validate Choice
-
-    // Check for user choice
-    //    When user clicks on an answer call Validate Choice
-
-    // Validate choice
-    //    Compare user choice to correct answer
-    //      if True
-    //        Update comment - Win!  (modal?)
-    //        wins++
-    //      else 
-    //        Update comment - Lose! (modal?)
-    //        losses++
-
-    // Reset game
-    //    Reset some vars
-    //    Current Question ++
-    //    Call start function
-    </script>
 </body>
 </html>
