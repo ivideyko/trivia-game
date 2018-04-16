@@ -48,13 +48,13 @@ hr {
 }
 
 #correctAnswer {
-  color: yellowgreen;
+  color: yellow;
   font-size: 60px;
   font-weight: bold;
 }
 
 a.answer {
-  color: yellowgreen;
+  color: yellow;
   display: inline;
   font-size: 30px;
   line-height: 1.7;
